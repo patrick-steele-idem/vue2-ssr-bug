@@ -1,0 +1,17 @@
+{
+  "name": "vue2-ssr-bug",
+  "version": "1.0.0",
+  "main": "ssr.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.0.1",
+    "vue": "^2.0.1",
+    "vue-server-renderer": "^2.0.1"
+  },
+  "devDependencies": {},
+  "description": ""
+}
