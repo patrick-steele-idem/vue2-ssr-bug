@@ -1,7 +1,7 @@
 vue2-ssr-bug
 ============
 
-This is a repo to reproduce a bug found when trying to benchmark server-side rendering for Vue2. The main script for this Node.js project simply renders a Vue component repeatedly (in series) for _n_ number of times. If the UI component is rendered for a small number of times (say, _n_<50) then everthing works as expected. However, if the UI component is renderered a lot of times (say, _n_>100) then Vue starts invoking the render callback multiple times to produce the following error:
+This is a repo to reproduce a bug found when trying to benchmark server-side rendering for Vue2. The main script for this Node.js project simply renders a Vue component repeatedly (in series) for _n_ number of times. If the UI component is rendered for a small number of times (say, _n_<50) then everthing works as expected. However, if the UI component is renderered a lot of times (say, _n_&gt;100) then Vue starts invoking the render callback multiple times to produce the following error:
 
 `Error: Callback was already called.`
 
